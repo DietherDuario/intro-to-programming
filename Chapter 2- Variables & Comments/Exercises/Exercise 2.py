@@ -1,0 +1,1 @@
+print("David Goggins once said,",'"Denial is the ultimate comfort zone."')

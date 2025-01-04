@@ -28,6 +28,8 @@ pet = {
     "Eats":"Bones"
 }
 
+pets.append(pet)
+
 for pet in pets:
     print(f"Here's what we know about the! {pet["Name"].title()}:")
     for key, value in pet.items():

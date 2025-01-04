@@ -1,0 +1,16 @@
+sandwhich_orders = ["Grilled cheese", "Ham and cheese", "Beef", "Vegetable", "Pastrami", "Pastrami", "Pastrami"]
+finished = []
+
+print("We've run out of pastrami!")
+while "Pastrami" in sandwhich_orders:
+    sandwhich_orders.remove("Pastrami")
+
+while sandwhich_orders:
+    making = sandwhich_orders.pop()
+    print("Currently making your" + making + " sandwhich.")
+    finished.append(making)
+
+for sandwhich in finished:
+    print("Your " + sandwhich + "sanwhich. Enjoy!")
+
+    
